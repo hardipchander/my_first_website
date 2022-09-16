@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #a1c3ff;
+    color: white;
+    font-family: "Roboto" ,sans-serif;
+}
+
+#title {
+    text-align: center;
+
+}
+
+/* My Top Navigation Bar*/
+#NavBar {
+    list-style-type: none;
+    background-color: #3474e6;
+    margin: 0;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    font-size:  10px;
+    justify-content: center;
+    align-items: center;
+    line-height: 3vw;
+
+}
+
+#NavBar a {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#NavBar li {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 5px solid white;
+}
+
+#NavBar a:link {
+    color:white;
+}
+
+#NavBar a:visited {
+    color:white;
+}
+
+#NavBar a:hover {
+    color:white;
+    /*text-decoration: underline; */
+    background-color: dodgerblue;
+}
+
+#NavBar a:active {
+    color:white;
+}
+
+/* */
+
