@@ -7,6 +7,10 @@
     <link rel="icon" href="img/icon.png" type="image/x-icon">
     <meta name="Author" content="Hardip Chander">
     <meta name="viewport" content="width=device-width, initial-scale=10.0">
+    <!-- Adding the JavaScript-->
+    <script src="./behaviour.js">
+
+    </script>
 </head>
 <body>
     <!-- Heading ------------------------------------------->
@@ -14,17 +18,20 @@
         <nav style="margin-bottom: 25px;">
         <ul id="NavBar">
             <li class="tab"> <a href="index.html">Home</a></li>
-            <li class="tab" style="background-color: #EDAE49;"><a href="#">NBA</a></li>
+            <li class="tab" id="activepage"><a href="#">NBA</a></li>
             <li class="tab"><a href="pagetwo.html">NFL</a></li>
         </ul>
         </nav>
     </header>
     <!-- Main Body of the HomePage-------------------------->
     <main>
+        <div id="buttonPlace">
+            <button id="buttonAct" onclick="ColorSwitch()">Change The Color</button>
+        </div>
         <div style="margin-bottom: 35px;">
             <h1 style="text-align: center;"><abbr title="National BasketBall Association">NBA</abbr></h1>
             <p>The NBA has 30 teams that are located in the United States.</p>
-            <p>The <span style="color:#EDAE49;background-color:#23395d;">Golden State Warriors</span> won the 2022 championship.</p>
+            <p>The Golden State Warriors won the 2022 championship.</p>
         </div>
         <div id="imagesCollection">
             <figure>

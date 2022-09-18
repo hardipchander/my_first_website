@@ -5,10 +5,13 @@
 }
 
 body {
-    /*  23395d      */
     background-color: #3474e6;
     color: white;
     font-family: "Roboto" ,sans-serif;
+}
+
+#activepage {
+    background-color: #EDAE49;
 }
 
 p {
@@ -106,4 +109,24 @@ footer p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic;
+}
+
+button {
+    background-color: #EDAE49;
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    
+}
+
+#buttonPlace {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
 }
