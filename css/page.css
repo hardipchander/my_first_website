@@ -5,20 +5,20 @@
 }
 
 body {
-    background-color: #a1c3ff;
+    /*  23395d      */
+    background-color: #3474e6;
     color: white;
     font-family: "Roboto" ,sans-serif;
 }
 
 #title {
     text-align: center;
-
 }
 
 /* My Top Navigation Bar*/
 #NavBar {
     list-style-type: none;
-    background-color: #3474e6;
+    background-color: #23395d;
     margin: 0;
     height: 55px;
     display: flex;
@@ -55,13 +55,12 @@ body {
 
 #NavBar a:hover {
     color:white;
-    /*text-decoration: underline; */
-    background-color: dodgerblue;
+    text-decoration: underline; 
 }
 
 #NavBar a:active {
     color:white;
 }
 
-/* */
+
 
