@@ -64,3 +64,17 @@ p {
 #NavBar a:active {
     color:white;
 }
+
+.image {
+    border: 3px solid white;
+}
+
+#imagesCollection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vw;
+    background-color: crimson;
+}
+
