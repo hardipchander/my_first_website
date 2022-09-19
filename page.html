@@ -7,27 +7,109 @@
     <link rel="icon" href="img/icon.png" type="image/x-icon">
     <meta name="Author" content="Hardip Chander">
     <meta name="viewport" content="width=device-width, initial-scale=10.0">
+    <script src="./behaviour.js">
+
+    </script>
 </head>
 <body>
-    <!-- Heading ------------------------------------------->
     <header>
-        <nav style="margin-bottom: 20px;">
+        <nav style="margin-bottom: 25px;">
         <ul id="NavBar">
-            <li class="tab"> <a href="index.html">Home</a></li>
-            <li class="tab" style="background-color: #EDAE49;"><a href="#">NBA</a></li>
-            <li class="tab"><a href="pagetwo.html">NFL</a></li>
+            <li class="tab"> <a href="index.html" class="link">Home</a></li>
+            <li class="tab" id="activepage"><a href="#" class="link">NBA</a></li>
+            <li class="tab"><a href="pagetwo.html" class="link">NFL</a></li>
         </ul>
         </nav>
     </header>
-    <!-- Main Body of the HomePage-------------------------->
     <main>
-        <div>
-            
+        <div id="buttonPlace">
+            <button id="buttonAct" onclick="ColorSwitch()">Change The Color</button>
         </div>
+        <div style="margin-bottom: 35px;">
+            <h1 style="text-align: center;"><abbr title="National BasketBall Association">NBA</abbr></h1>
+            <p>The NBA has 30 teams that are located in the United States.</p>
+            <p>The Golden State Warriors won the 2022 championship.</p>
+        </div>
+        <div id="imagesCollection">
+            <figure>
+                <img src="img/adamsliver.png" alt="adamsliver" height="200" width="200" title="Adam Siver" class="image">
+                <figcaption style="text-align: center;">Adam Sliver</figcaption>
+            </figure>
+            <figure>
+                <img src="img/nbateams.png" alt="Teams" height="200" width="200" title="Nba Teams" class="image">
+                <figcaption style="text-align: center;">NFL Teams</figcaption>
+            </figure>
+            <figure>
+                <img src="img/trophy.png" alt="trophy" height="200" width="200" title="trophy" class="image">
+                <figcaption style="text-align: center;">NBA Championship</figcaption>
+            </figure>
+        </div>
+        <div style="margin-top: 20px;" id="champtable">
+            <h3 style="text-align: center;">The Past Champions</h3>
+            <br>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Champions</th>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>Lakers</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>Mavericks</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td rowspan="2">Heat</td>
+                </tr>
+                
+                <tr>
+                    <td>2013</td>
+                    
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td>Spurs</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Warriors</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Cavaliers</td>
+                </tr>
+                <tr>
+                    <td>2017</td>
+                    <td rowspan="2">Warriors</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>Raptors</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Lakers</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Bucks</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>Warriors</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
     </main>
-     <!-- Footer  the HomePage ----------------------------->
     <footer>
-
+        <p>&lt;&lt;&lt; &copy; Hardip Chander &gt;&gt;&gt;</p>
     </footer>
 </body>
 </html>
